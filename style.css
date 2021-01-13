@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-family: "Arial Black", sans-serif;
+    font-size: 2.5rem;
+    
+}
+
+#container {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 5px 5px 5px darkgrey;
+    margin-top: 5%;
+    color: #101094;
+}
+
+#time {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    font-style: italic;
+    text-shadow: 5px 5px 5px #ccfffd;
+    color: #f64165;
+}
+
+#meteo {
+    width: 80%;
+    margin: 3% auto 3% auto;
+    border: 7px solid #00008c;
+    border-radius: 10px;
+    background: rgb(230,240,245);
+    background: radial-gradient(circle, rgba(230,240,245,1) 4%, rgba(179,199,217,1) 50%, rgba(175,178,255,1) 100%);
+}
