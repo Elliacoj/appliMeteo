@@ -97,9 +97,21 @@ button {
     }
 
     #meteo {
-        margin-top: 10%;
+        margin-top: 5%;
         width: 100%;
     }
+
+    label {
+        margin-left: 1%;
+    }
+
+    input {
+        width: 25%;
+    }
+
+     button {
+         margin: 0;
+     }
 }
 
 @media screen and (max-width: 500px){
@@ -109,5 +121,13 @@ button {
 
     .title {
         font-size: 1.8rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    input {
+        font-size: 1.5rem;
     }
 }
